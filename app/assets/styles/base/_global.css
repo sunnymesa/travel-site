@@ -1,9 +1,13 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
-	color: #333;
+	color: $mainBodyColor;
 }
 
 img {
 	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
 }
