@@ -1,7 +1,12 @@
+var $ = require ("jquery");
 
-function person(person, blue) {
-  console.log("This is a test: " + person+ " color: " + blue);
-}
+var Person = require("./modules/Person");
+alert("ABC");
 
-person("john", "blue");
-person("doe", "red");
+var john = new Person("John Doe", "blue");
+john.greet();
+
+var jane = new Person("Jane Smith", "green");
+jane.greet();
+
+$("h1").remove();
