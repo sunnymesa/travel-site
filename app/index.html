@@ -28,7 +28,7 @@
       </div>
       <div class="site-header__menu-content">
         <div class="site-header__btn--container">
-          <a href="#" class="btn">Get in Touch</a>
+          <a href="#" class="btn open-modal">Get in Touch</a>
         </div>
         <nav class="primary-nav primary-nav__pull-right">
           <ul>
@@ -140,8 +140,8 @@
     <div class="wrapper wrapper--no-padding-until-large">
 
       <h2 class="section-title section-title--blue">
-        <img class="section-title__icon" src="assets/images/icons/comment.svg">
-        Real <strong>Testimonials</strong>
+        <!-- <img class="section-title__icon" src="assets/images/icons/comment.svg"> -->
+        <span class="icon icon--comment section-title__icon"></span>Real <strong>Testimonials</strong>
         </h2>
 
       <div class="row row--equal-height-at-large row--gutters row--gutters-small row--t-padding generic-content-container">
@@ -182,9 +182,32 @@
 
   <footer class="site-footer">
     <p><span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span>
-    <a href="#" class="btn btn--orange">Get in Touch</a>
+    <a href="#" class="btn btn--orange open-modal">Get in Touch</a>
     </p>
   </footer>
+
+  <div class="modal">
+    <div class="modal__inner">
+      <h2 class="section-title section-title--blue section-title--less-margin">
+        <span class="icon icon--mail section-title__icon"></span>Get In <strong>Touch</strong>
+      </h2>
+      <div class="wrapper wrapper--narrow">
+        <p class="modal__description">We will have online order system in place soo, Until the, connect with us on any of the platform below!</p>
+      </div>
+
+      <div class="social-icons">
+        <a href="#" class="social-icons__icon"><span class="icon icon--facebook"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--twitter"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--instagram"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--youtube"></span></a>
+      </div>
+    </div>
+
+    <div class="modal__close">X
+    </div>
+  </div>
+
+
   <script src="/temp/scripts/App.js"></script>
 </body>
 </html>
